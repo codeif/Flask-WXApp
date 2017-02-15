@@ -3,6 +3,13 @@
 
 - `微信文档 <https://mp.weixin.qq.com/debug/wxadoc/dev/api/api-login.html>`_
 
+Installation
+------------
+
+.. code::
+
+    pip install Flask-WXApp
+
 Configuration
 -------------
 
