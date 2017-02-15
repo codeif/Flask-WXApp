@@ -74,4 +74,12 @@ session_key     会话密钥
 	'watermark': {'appid': 'wx4f4bc4dec97d474b', 'timestamp': 1477314187}
     }
 
+- 生成3rd_session的key
 
+.. code:: python
+
+    wx.gen_3rd_session_key()
+
+返回32位长度的16进止字符串,例如::
+
+   8e4792ee728926443147bb5703aa50a7 
