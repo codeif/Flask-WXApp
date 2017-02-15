@@ -6,7 +6,7 @@ with open('README.rst') as f:
     readme = f.read()
 
 setup(
-    name='flask_wxapp',
+    name='Flask-WXApp',
     version='0.1.1',
     description='Flask Extension for WeChat App.',
     long_description=readme,
