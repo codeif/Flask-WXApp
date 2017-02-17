@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name='Flask-WXApp',
-    version='0.1.1',
+    version='0.1.2',
     description='Flask Extension for WeChat App.',
     long_description=readme,
     author='codeif',

@@ -43,7 +43,7 @@ class WXApp(object):
     def _unpad(self, s):
         return s[:-ord(s[len(s)-1:])]
 
-    @staticmethod
-    def gen_3rd_session_key():
-        """生成长度为32位的hex字符串，用于第三方session的key"""
-        return binascii.hexlify(os.urandom(16)).decode()
+
+def gen_3rd_session_key():
+    """生成长度为32位的hex字符串，用于第三方session的key"""
+    return binascii.hexlify(os.urandom(16)).decode()
