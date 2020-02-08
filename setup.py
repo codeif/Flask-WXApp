@@ -14,6 +14,6 @@ setup(
     author_email='me@codeif.com',
     url='https://github.com/codeif/Flask-WXApp',
     license='MIT',
-    install_requires=['requests', 'pycrypto'],
+    install_requires=['requests', 'pycryptodome'],
     packages=find_packages(),
 )
